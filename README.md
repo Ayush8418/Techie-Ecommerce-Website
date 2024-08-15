@@ -1,15 +1,16 @@
 ### E-Commerce Project
 ### Overview
 This is a full-stack e-commerce application that allows users to browse products, add items to their cart, and complete purchases. The project is divided into two main parts:
-<h5>Frontend:</h5> Built with React, css, html
-<h5> Backend: </h5>Developed using Node.js and connected to a MongoDB Atlas.
+</br></br><b>Frontend:</b> Built with React, css, html</br>
+<b> Backend: </b>Developed using Node.js and connected to a MongoDB Atlas.</br>
+
 ### Features
-<h5>User Authentication:</h5>Sign up, login, and manage user accounts.
-<h5>Product Management:</h5> Admin interface to add, edit, and remove products.
-<h5>Shopping Cart:</h5> Users can add products to the cart, view their cart, and proceed to checkout.
-<h5>Payment Gateway Integration:</h5> Integration with [Payment Gateway, e.g., Stripe, PayPal] for secure payments.
-<h5>Order History:</h5> Users can view their past orders.
-<h5>Responsive Design:</h5> Mobile-friendly interface.
+<b>User Authentication:</b> Sign up, login, and manage user accounts.</br>
+<b>Product Management:</b> Admin interface to add, edit, and remove products.</br>
+<b>Shopping Cart:</b> Users can add products to the cart, view their cart, and proceed to checkout.</br>
+<b>Payment Gateway Integration:</b> Integration with [Payment Gateway, e.g., Stripe, PayPal] for secure payments.</br>
+<b>Order History:</b> Users can view their past orders.</br>
+<b>Responsive Design:</b> Mobile-friendly interface.</br>
 
 ### Technologies Used
 ##### Frontend
@@ -46,24 +47,6 @@ npm start
 Usage
 Backend: Visit http://localhost:4000 to interact with the API.
 Frontend: Visit http://localhost:3000 to view the application.
-
-### Project Structure
-##### Backend
-ecommerce-backend/
-│
-├── models/              # Database models
-├── routes/              # API routes
-├── controllers/         # Route handlers
-├── middlewares/         # Custom middlewares
-└── app.js               # Application entry point
-##### Frontend
-ecommerce-frontend/
-│
-├── src/
-│   ├── components/       # Reusable components
-│   ├── pages/            # Different pages (Home, Product, Cart, etc.)
-│   ├── services/         # API service calls
-│   └── App.js            # Application entry point
 
 ### Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for review.
