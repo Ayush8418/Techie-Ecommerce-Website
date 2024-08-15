@@ -1,0 +1,31 @@
+.headphone-banner{
+    display: flex;
+}
+.b2heading{
+    height: 350px;
+    width: 500px;
+    background-image: url("../Assets/Banners/head1.png");
+    background-size: cover;
+}
+
+.b2content button{
+    margin-top: 100px;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    color: beige;
+    font-size: larger;
+    font-weight: 500;
+}
+.b2content{
+    height: 350px;
+    width: 175px;
+    background-color: #252e40;
+}
+
+.b2content button:hover{
+    background-color: white;
+    color: black;
+    height: 65px;
+    width: 160px;
+}

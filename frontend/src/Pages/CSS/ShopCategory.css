@@ -1,0 +1,92 @@
+.phone-page-banner img{
+    height: 300px;
+}
+.phone-banner-div2{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #49c6e6;
+}
+.phone-banner-div2 button{
+    height: 50px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    font-weight: bolder larger;
+}
+.phone-banner-div2 button:hover{
+    height: 50px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    font-weight: bolder larger;
+    border: 2px solid black;
+}
+.phone-page-banner{
+    display: flex;
+    justify-content: center;
+    /* background-color: #49c6e6; */
+}
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-sort{
+    padding: l0px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+.shopcategory-indexSort p span{
+    font-weight: 600;
+}
+.shopcategory-products{
+    margin:20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+.laptop-page-banner{
+    display: flex;
+    justify-content: center;
+}
+.other-page-banner{
+    display: flex;
+    justify-content: center;
+}
+.other-page-banner img{
+    height: 450px;
+}
+
+.other-banner-div2{
+    height: 450px;
+    width: 17%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-banner-div2 button{
+    height: 50px;
+    width: 100px;
+    background-color: #000000;
+    color: #ffff;
+    border: 2px solid white;
+}
+.other-banner-div2 button:hover{
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}

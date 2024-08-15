@@ -1,0 +1,114 @@
+.cartitems{
+    display: flex;
+    justify-content: center;
+}
+.cartitem{
+    margin: 20px
+}
+.cartitems-format-left-noOfItems{
+    margin-top: 20px;
+}
+.cartitem-format-left-address{
+    background-color: rgb(252, 236, 236);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    width: 800px;
+}
+.cartitems-format-right{
+    border: 1px solid rgb(222, 220, 220);
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.cartitems-format-right-coupon , .cartitems-format-right-gift {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.cartitems-format-right-coupon div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.cartitems-format-right-coupon hr{
+    color: rgb(110, 110, 110);
+    height: 1px;
+    margin-top: 30px;
+}
+.cartitems-format-right-coupon div button{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(253, 87, 87);
+    color: red;
+    font-weight: 400;
+}
+.cartitems-format-right-gift{
+    background-image: url('../Assets/giftWrap.png');
+    background-size:cover;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.cartitems-format-right-gift-price{
+    height: 140px;
+    width: 80%;
+}
+.cartitems-format-right-gift-price div{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.cartitems-format-right-gift-add{
+    color: rgb(253, 87, 87)
+}
+.cartitems-format-right-gift hr{
+    color: rgb(135, 133, 133);
+    height: 1px;
+}
+.cartitems-format-right-prices{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.cartitems-format-right-prices h6{
+    margin-bottom: 20px;
+}
+.price-distribution{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.cartitems-format-right-prices p{
+    margin-bottom: 10px;
+    font-size: large;
+}
+.cartitems-format-right-prices hr{
+    color: rgb(135, 133, 133);
+    height: 1px;
+}
+.cartitems-format-right-total{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.cartitems-format-right-prices .discount2{
+    color: rgb(8, 165, 8);
+}
+.place-order-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.place-order-button button{
+    margin-top: 14px;
+    color: white;
+    background-color: #e93d67;
+    height: 60px;
+    width: 92%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}

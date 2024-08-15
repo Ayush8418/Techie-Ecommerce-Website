@@ -1,0 +1,56 @@
+.item {
+    border: 0px solid rgb(179, 177, 177);
+    box-shadow: 6px black;
+    width:300px;
+    background-color: white;
+}
+.imageDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.brand-name,.item-name,.item-price{
+    margin-left: 25px;
+}
+.item-price{
+    display: flex;
+}
+.brand-name{
+    font-family: "Kanit", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+}
+.item-name{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -18px;
+}
+.item-price{
+    margin-top: -12px;
+}
+.item-price-new{
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+}
+.item-price-old {
+    display: flex;
+    font-size: 13px;
+    text-decoration: line-through;
+    /* margin-bottom: -4px; */
+    margin-left: 5px;
+}
+.discount{
+    color: rgb(240, 57, 57);
+    display: flex;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.item:hover{
+    border: 1px solid rgba(107, 106, 106, 0.5);
+    box-shadow: 5px 5px 3px 0 rgba(107, 106, 106, 0.5);
+}

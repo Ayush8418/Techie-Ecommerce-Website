@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    border: 1px solid rgb(184, 182, 182);
+    box-shadow: 2px;
+}
+.nav-logo{
+    display: flex;
+    margin-left: 30px;
+}
+.logo{
+    margin-top: 2px;
+    height: 40px;
+    border-radius: 10px;
+}
+.web-name{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    list-style: none;
+}
+.nav-menu li{
+    cursor: pointer;
+}
+.nav-login-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.cart-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 30px;
+}
+.cart-logo img{
+    height: 30px;
+    width: 30px;
+}
+.cart-logo:active{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid rgb(209, 210, 210);
+    background-color: rgb(209, 210, 210);
+}
+.login-signup-icon img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.login-signup-icon{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #edecec;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30px;
+}
+.login-signup-icon:active{
+    background-color: rgb(209, 210, 210);
+}
+.current-category-hr{
+    width: 100%;
+    border: none;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+}
+.logout-nav-icon{
+    height: 60px;
+    width: 120px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(200, 198, 198);
+}

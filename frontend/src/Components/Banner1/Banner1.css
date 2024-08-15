@@ -1,0 +1,45 @@
+.phone-banner{
+    display: flex;
+}
+.heading{
+    height: 350px;
+    width: 500px;
+    background-image: url("../Assets/Banners/phone2.png");
+    background-size: cover;
+}
+.heading h1{
+    margin-left: 15px;
+    margin-top: 20px;    
+}
+.heading h1 span{
+    color: white;
+}
+.heading p{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.content button{
+    margin-top: 100px;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    color: beige;
+    font-size: larger;
+    font-weight: 500;
+}
+.content{
+    height: 350px;
+    width: 175px;
+    background-color: #49c6e6;
+}
+
+.content button:hover{
+    background-color: white;
+    color: black;
+    height: 65px;
+    width: 160px;
+}
+
+
+
+

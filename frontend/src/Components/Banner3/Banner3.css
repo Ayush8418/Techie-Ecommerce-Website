@@ -1,0 +1,28 @@
+.banner3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.banner3-photo{
+    background-image: url('../Assets/Banners/lap1.png');
+    background-size: cover;
+    height: 470px;
+    width: 1370px;
+}
+.banner3-photo button{
+    margin: 350px 200px 100px 200px;
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    border:4px solid white;
+    color:white;
+    font-size: larger;
+    font-weight: 500;
+}
+.banner3-photo button:hover{
+    height: 65px;
+    width: 160px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
