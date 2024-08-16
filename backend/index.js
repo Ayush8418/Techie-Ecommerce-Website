@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 //Database connect with mongoDB
-mongoose.connect("mongodb+srv://ayushkumar8418:ayushkumar8418@cluster0.ok5my1s.mongodb.net/e-commerce")
+mongoose.connect("mongodb+srv://<--Username of mongodb atlas cluster-->:<--passwoed-->@cluster0.ok5my1s.mongodb.net/e-commerce")
 
 //Api Creation
 app.get("/" , (req,res) => {
