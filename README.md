@@ -4,6 +4,8 @@ This is a full-stack e-commerce application that allows users to browse products
 </br></br><b>Frontend:</b> Built with React, css, html</br>
 <b> Backend: </b>Developed using Node.js and connected to a MongoDB Atlas.</br>
 
+![alt text](https://raw.githubusercontent.com/Ayush8418/Techie-Ecommerce-Website/main/frontend/src/Components/Assets/main-photo.png)
+
 ### Features
 <b>User Authentication:</b> Sign up, login, and manage user accounts.</br>
 <b>Product Management:</b> Admin interface to add, edit, and remove products.</br>
@@ -56,3 +58,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Contact
 For any inquiries, please contact ayushkumar8418@gmail.com
+
+### Preview
+##### Home page
+![alt text](https://raw.githubusercontent.com/Ayush8418/Techie-Ecommerce-Website/main/frontend/src/Components/Assets/main-photo.png)
+##### Shop page
+![alt text](https://raw.githubusercontent.com/Ayush8418/Techie-Ecommerce-Website/main/frontend/src/Components/Assets/shop-page.png)
+##### Cart page
+![alt text](https://raw.githubusercontent.com/Ayush8418/Techie-Ecommerce-Website/main/frontend/src/Components/Assets/cart-page.png)
+##### login page
+![alt text](https://raw.githubusercontent.com/Ayush8418/Techie-Ecommerce-Website/main/frontend/src/Components/Assets/login-page.png)
