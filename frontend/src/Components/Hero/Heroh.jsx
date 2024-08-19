@@ -25,13 +25,13 @@ function Hero() {
             <div className="item item10"><img src={dragon10} alt=""/></div> */}
         </div>
         <div className="content">
-          <h1>css Only</h1>
+          <h1>Techie</h1>
           <div className='aythor'>
-            <h2>LUN DEV</h2>
-            <p><b>web Design</b></p>
+            <h2>Ayush</h2>
             <p>
-              vvvvvvvvvvvvvvstvdgbfgdbfsgbvdffsg
+              ayushkumar8418@gmail.com
             </p>
+            <p><b>Ecommerce website that features new and advance tech products </b></p>
           </div>
           <div className="model">
 
